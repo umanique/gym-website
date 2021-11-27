@@ -16,4 +16,7 @@ A simple landing page website for a gym which is built on using basic HTML5 and 
 
 * PNG image as background
 
-## 📸 Screenshots:
+## 📸 Screenshot:
+
+![picture alt](https://github.com/umanique/gym-website/blob/main/images/1.png)
+
