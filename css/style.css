@@ -1,0 +1,131 @@
+ /* CSS Resets */
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 40px;
+    padding: 0px;
+    background: url('../images/gym_bg.jpg');
+    /* height: 1000px; */
+    height: 150vh;
+    color: azure;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 13px;
+}
+
+.left img {
+    width: 134px;
+    height: 62px;
+    filter: invert(100%);
+
+}
+
+.left div {
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    line-height: 0px;
+    font-size: 18px;
+
+}
+
+.mid {
+    /* border: 2px solid rgb(123, 222, 230); */
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+
+
+}
+
+.right {
+    /* border: 2px solid rgb(131, 126, 206); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 19px;
+
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 9px 9px;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    /* text-decoration: underline; */
+    border-radius: 30px;
+    background-color:rgb(91, 167, 175);
+}
+
+.btn {
+    padding: 7px 30px;
+    margin: 2px 7px;
+    background: black;
+    color: white;
+    border: 3px solid #bbe1bc;
+    border-radius: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 14px;
+    cursor: pointer;
+
+
+}
+
+.btn:hover {
+    background-color:rgb(91, 167, 175);
+}
+
+.container {
+    border: 2px solid #73b678;
+    margin: 109px 53px;
+    padding: 15px 9px;
+    width: 29%;
+    border-radius: 22px;
+}
+.form-group input{
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 9px auto;
+    width: 260px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Baloo Bhai 2', cursive;
+    outline: none;
+
+}
+
+.container h2{
+    text-align: center;
+    padding: 10px;
+    
+}
+.container button{
+    display: block;
+    width: 110px;
+    margin: 31px auto;
+}
